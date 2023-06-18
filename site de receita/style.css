@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(213, 213, 213);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    background-color: orange;
+    height: 40px;
+    text-align: center;
+    padding: 9px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    width: 100%;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.card{
+    width:610px;
+    margin: auto;
+    padding: 30px 40px 50px;
+    background-color: white;
+    margin: 40px auto;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botao{
+    text-decoration: none;
+    background-color: orange;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+.botao:hover{
+    background-color: white;
+    border: 1px solid orange;
+    color: orange;
+}
+
+h1{
+    text-align: center;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin-bottom: 20px;
+}
+
+li{
+    line-height: 50px;
+    list-style-position: inside;
+}
+
+.titulo{
+    margin-top: 30px;
+}
+
+.contt{
+    width: 40px;
+    border-radius: 0;
+    margin: 0px 20px;
+}
+
+.contt:hover{
+    background-color: rgba(255, 255, 255, 0.496);
+    border-radius: 10px;
+    transform: scale(1.2);
+}

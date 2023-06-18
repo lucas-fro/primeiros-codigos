@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css" media="screen">
+</head>
+<body>
+
+    <div>
+        <h1 id="titulo"><strong>FORMULARIO DE DESENVOLVEDOR</strong></h1>
+        <p id="subtitulo">complete as informações para se candidatar a vaga de desenvolvedor</p><br>
+    </div>
+    
+    <form>
+        <fieldset classe="grupo">
+            <div class="campo">
+                <label for="nome"><strong>NOME</strong></label>
+                <input type="text" nome="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>SOBRENOME</strong></label>
+                <input type="text" nome="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="email"><strong>E-MAIL</strong></label>
+            <input type="email" nome="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label>Com oque você quer trabalhar?</label>
+            <label>
+                <input type="radio" name="aplicacao" value="frontend" checked>Front-end
+            </label>
+            <label>
+                <input type="radio" name="aplicacao" value="backend">Back-end
+            </label>
+            <label>
+                <input type="radio" name="aplicacao" value="fullstack">Fullstack
+            </label>
+        </div>
+
+        <div class="campo">
+            <label>Nivel de experiencia:</label>
+            <label>
+                <input type="radio" name="exp" value="junior" checked>Junior
+            </label>
+            <label>
+                <input type="radio" name="exp" value="pleno">Pleno
+            </label>
+            <label>
+                <input type="radio" name="exp" value="senior">Senior
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="Regiao"><strong>REGIÃO</strong></label>
+            <select nome="Regiao" id="Regiao">
+                <option value="" selected disabled>selecione...</option>
+                <option value="sp">SP</option>
+                <option value="rj">RJ</option>
+                <option value="mg">MG</option>
+                <option value="es">ES</option>
+            </select>
+        </div>
+
+        <fieldset classe="grupo">
+            <div id="check">
+                <label>Seleciona as tecnologias que voce sabe:</label>
+                <input type="checkbox" name="tec1" id="tec1" value="html">
+                <label for="tec1">HTML</label>
+                <input type="checkbox" name="tec2" id="tec2" value="css">
+                <label for="tec2">CSS</label>
+                <input type="checkbox" name="tec3" id="tec3" value="Javascript">
+                <label for="tec1">Javascript</label>
+                <input type="checkbox" name="tec4" id="tec4" value="PHP">
+                <label for="tec2">PHP</label>
+                <input type="checkbox" name="tec5" id="tec5" value="Python">
+                <label for="tec1">Python</label>
+                <input type="checkbox" name="tec6" id="tec6" value="java">
+                <label for="tec2">Java</label>
+            </div>
+        </fieldset>
+
+        <di class="campo">
+            <br>
+            <label for="mais-info">Conte mais sobre você aqui embaixo.</label>
+            <textarea name="mais-info" style="width: 30em;" id="mais-info" rows="5"></textarea>
+        </div><br>
+
+        <button class="botao" type="submit"><strong>ENVIAR</strong></button>
+    </form>
+
+</body>
+</html>

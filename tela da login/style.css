@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(19, 0, 29);;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    color: rgb(80, 193, 153);
+    font-size: 3vw;
+}
+
+.img-hosp{
+    width: 35vw;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(38, 11, 62);
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000057;
+}
+
+.card-login > h1{
+    color: rgb(79, 226, 175);
+    font-weight: 800;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(181, 140, 220);
+    color: azure;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000057;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: azure;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: rgb(190, 183, 194);
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 5px;
+    color: rgb(19, 0, 36);
+    background-color: rgb(95, 255, 92);
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000057;
+    font-size: 15pt;
+}
+
+.btn-login:hover{
+    background-color: rgb(75, 210, 73);
+}
+
+.btn-login:active{
+    background-color: rgb(117, 255, 115); 
+}
